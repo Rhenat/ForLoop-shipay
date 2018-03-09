@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name = "viewport" content="width=device-width, initial-scale=1">
+	<title>ShiiPay</title>
+	<link rel="stylesheet" href ="css/styles.css">
+	<link rel = "stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bttn.min.css">
+	
+</head>
+	 <nav class="navbar navbar-default" role = "navigation">
+        <div class="container">
+         	<div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+				<a class = "hidden navbar-brand" href = "#logo"> <img src="images/grey2.png" alt = ""> </a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class = "active"><a  href="#logo" class = "change">Home </a></li>
+                    <li><a  href = "#" class = "bio" >About</a></li>
+                    <!--<li><a  href = "#" class = "serv">Link</a></li>-->
+                    <li><a  href = ".contact" class = "contact">Contact</a></li>
+                                
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<body>
+	
+	
+	 <div id="box1">
+         
+		 <div class="container animation-element">
+			 <div class="row">
+				 <div class="intro">
+				 <h1>Shipay</h1>
+			 	<button class="bttn-unite bttn-md bttn-primary">Login</button>
+			 	<button class="bttn-unite bttn-md bttn-primary">Sign Up</button>
+				<!--<a class="flwpug_getpaid" data-PBFPubKey="FLWPUBK-adbe8e21cca6983ea92d340093783d76-X" data-txref="rave-checkout-1520594072" data-amount="" data-customer_email="user@example.com" data-currency = "GHS" data-pay_button_text = "" data-country="GH" data-custom_title = "Shiipay" data-custom_description = "" data-redirect_url = "" data-custom_logo = "" data-payment_method = "both" data-exclude_banks=""></a> -->
+				 </div>
+			  </div>
+		 </div>
+            
+		 <!-- particles.js container --> 
+		 <div id="particles-js"></div> 
+		 <!-- stats - count particles --> 
+		 <!--<div class="count-particles"> 
+			 <span class="js-count-particles">--</span> 
+		 </div>  particles.js lib - https://github.com/VincentGarreau/particles.js -->
+        </div>
+        <div id="box2">
+			<div class="content">
+            <div class="container">
+				<div class="row">
+					<div class="col-sm-4 text-center">
+					  <h2><strong>Safe Delivery</strong></h2>
+					  <p>We offer safe and secure delivery of your shipments </p>
+					  <!--<button type="button" class="btn btn-info btn-sm">Info Button</button>
+					  <button type="button" class="btn btn-success btn-sm">Success Button</button>-->
+					</div>
+    <div class="text-center col-sm-4">
+      <h2><strong>Card &amp; Mobile Money Payments</strong></h2>
+      <p>We employ Rave by flutterwave to allow mobile money deposits.</p>
+      <!--<span class="label label-warning">Info Label</span><span class="label label-danger">Danger Label</span> -->
+	</div>
+    <div class="text-center col-sm-4">
+      <h2>Adding <strong>Glyphicons</strong></h2>
+      <p>You can also add glyphicons to your page from within the insert panel.</p>
+      <!--<div class="row">
+        <div class="col-xs-4"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></div>
+        <div class="col-xs-4"><span class="glyphicon glyphicon-home" aria-hidden="true"> </span> </div>
+        <div class="col-xs-4"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></div>
+      </div> -->
+    </div>
+  </div>
+			</div>
+        </div>
+	</div>
+        <div id="box3">
+            <h1>DAFT CREATION</h1>
+        </div>
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/particles.js"></script> <!-- stats.js lib --> 
+	<script src="js/stats.js"></script>
+	<script src="js/script.js"></script>
+	<script type="text/javascript" src="https://api.ravepay.co/flwv3-pug/getpaidx/api/flwpbf-inline.js"></script>
+	
+</body>
+</html>
