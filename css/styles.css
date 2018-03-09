@@ -4,10 +4,16 @@
             margin: 0;
             padding: 0;
         }
-
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+h2,h3,h4,h5 {
+	font-family: 'Montserrat', sans-serif;
+}
 /* Parallax effects begins */
-#box1{
-            height: 100vh;
+#box1
+{
+			height: 100vh;
             width: 100%;
 	        background-image: url("../images/igor-ovsyannykov-151127-unsplash.jpg");
             background-size: cover;
@@ -16,15 +22,22 @@
 	        }
 .intro {
 	display: block;
-	margin-left: 50%;
+	margin-left: 42%;
 	margin-top: 30%;
 }
 .intro h1 {
 	text-align: center !important;
 	color: white !important;
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 65px;
+	margin-bottom: 20px;
+	}
+.intro button {
+	margin-top : 10px;
+	margin-left: 10px;
 }
 #box2{
-    height: 100vh;
+    height: 50vh;
     width: 100%;
     background: url("../images/maarten-van-den-heuvel-246398-unsplash.jpg");
     background-size: cover;
@@ -37,17 +50,26 @@
 	color: white;
 }
 .content .row {
-	margin-top: 20%;
+	margin-top: 15%;
 }
 
-        #box3{
-            height: 100vh;
+#box3{
+            height: 60vh;
             width: 100%;
             background-image: url(../images/mincho-kavaldzhiev-502216-unsplash.jpg);
             background-size: cover;
             display: table;
             background-attachment: fixed;
-        }
+	color: white !important;
+}
+
+#box3 p {
+	color: white;
+}
+#box3 img {
+	width: 20px;
+	padding: 10px 0px;
+}
         h1{
             /*font-family: arial black;*/
             font-size: 50px;
@@ -56,6 +78,7 @@
             text-align: center;
             display: table-cell;
             vertical-align: middle;
+			font-family: 'Montserrat', sans-serif;
         }
 /* Parallax effects end */
 
@@ -117,7 +140,9 @@ canvas{
 
 /*navbar settings */
 .navbar {
+	z-index: 19999999;
 	margin-bottom: -50px!important;
+	
 }
 .navbar-default{
 	background-color: transparent !important;
@@ -127,6 +152,8 @@ canvas{
 	color: #ffffff !important;
 	background-color: transparent !important;
 	float: right;
+	font-size: 18px;
+	
 }
 
 /* Animation on scroll */
@@ -173,4 +200,8 @@ opacity:1;
   transform: translate3d(0px, 0px, 0px);
 }
 
+/* modal effects */
+.modal-content {
+	background-color: rgba(255,255,255,0.8) !important;
+}
 
