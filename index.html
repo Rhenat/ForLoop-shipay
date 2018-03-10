@@ -4,13 +4,33 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name = "viewport" content="width=device-width, initial-scale=1">
-	<title>ShiiPay</title>
+	<title>ShiPay</title>
+	
+	<!-- Adding css styling -->
 	<link rel="stylesheet" href ="css/styles.css">
 	<link rel = "stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/bttn.min.css">
+    	<link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/main1.css" />
+	
+	<!-- google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
 	
 </head>
-	 <nav class="navbar navbar-default" role = "navigation">
+	 
+
+<body>
+	
+	
+	 <div id="box1">  
+		 <!-- particles.js container --> 
+		 <div id="particles-js"></div> 
+		 <!-- stats - count particles --> 
+		 <!--<div class="count-particles"> 
+			 <span class="js-count-particles">--</span> 
+		 </div>  particles.js lib - https://github.com/VincentGarreau/particles.js --><div class="container animation-element">
+		 <nav class="navbar navbar-default" role = "navigation">
         <div class="container">
          	<div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -23,76 +43,287 @@
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class = "active"><a  href="#logo" class = "change">Home </a></li>
-                    <li><a  href = "#" class = "bio" >About</a></li>
+                    <li class = "active"><a  href="#box1">Home </a></li>
+                    <li><a  href = "#cta" class = "bio" >About</a></li>
                     <!--<li><a  href = "#" class = "serv">Link</a></li>-->
-                    <li><a  href = ".contact" class = "contact">Contact</a></li>
+                    <li><a  href = "#box3" class = "contact">Contact</a></li>
                                 
                 </ul>
             </div>
         </div>
     </nav>
-
-<body>
-	
-	
-	 <div id="box1">
-         
-		 <div class="container animation-element">
 			 <div class="row">
 				 <div class="intro">
 				 <h1>Shipay</h1>
-			 	<button class="bttn-unite bttn-md bttn-primary">Login</button>
-			 	<button class="bttn-unite bttn-md bttn-primary">Sign Up</button>
+			 	<button class="bttn-unite bttn-md bttn-primary" type="button" data-toggle="modal" data-target="#login">Login</button>
+			 	<button class="bttn-unite bttn-md bttn-primary" type="button" data-toggle="modal" data-target="#signup">Sign Up</button>
+					 <!-- Add Rave API -->
 				<!--<a class="flwpug_getpaid" data-PBFPubKey="FLWPUBK-adbe8e21cca6983ea92d340093783d76-X" data-txref="rave-checkout-1520594072" data-amount="" data-customer_email="user@example.com" data-currency = "GHS" data-pay_button_text = "" data-country="GH" data-custom_title = "Shiipay" data-custom_description = "" data-redirect_url = "" data-custom_logo = "" data-payment_method = "both" data-exclude_banks=""></a> -->
 				 </div>
 			  </div>
 		 </div>
-            
-		 <!-- particles.js container --> 
-		 <div id="particles-js"></div> 
-		 <!-- stats - count particles --> 
-		 <!--<div class="count-particles"> 
-			 <span class="js-count-particles">--</span> 
-		 </div>  particles.js lib - https://github.com/VincentGarreau/particles.js -->
         </div>
-        <div id="box2">
+    
+    <div id="box2">
 			<div class="content">
             <div class="container">
 				<div class="row">
-					<div class="col-sm-4 text-center">
-					  <h2><strong>Safe Delivery</strong></h2>
+					<div class="col-sm-6 text-center animation-element">
+					  <h2><font color="white">Safe Delivery</font></h2>
 					  <p>We offer safe and secure delivery of your shipments </p>
 					  <!--<button type="button" class="btn btn-info btn-sm">Info Button</button>
 					  <button type="button" class="btn btn-success btn-sm">Success Button</button>-->
 					</div>
-    <div class="text-center col-sm-4">
-      <h2><strong>Card &amp; Mobile Money Payments</strong></h2>
+    <div class="text-center col-sm-6 animation-element">
+      <h2><font color="white">Card &amp; Mobile Money Payments</font></h2>
       <p>We employ Rave by flutterwave to allow mobile money deposits.</p>
       <!--<span class="label label-warning">Info Label</span><span class="label label-danger">Danger Label</span> -->
 	</div>
-    <div class="text-center col-sm-4">
-      <h2>Adding <strong>Glyphicons</strong></h2>
-      <p>You can also add glyphicons to your page from within the insert panel.</p>
-      <!--<div class="row">
-        <div class="col-xs-4"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></div>
-        <div class="col-xs-4"><span class="glyphicon glyphicon-home" aria-hidden="true"> </span> </div>
-        <div class="col-xs-4"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></div>
-      </div> -->
-    </div>
-  </div>
+      </div>
 			</div>
         </div>
 	</div>
+    
+    	<!-- CTA -->
+			<section id="cta" class="wrapper">
+				<div class="inner">
+					<h2>Terms and Conditions</h2>
+					<p>Thank you for visiting and partnering with ShiPay. ShiPay seeks to serve as a mediator to ship from international companies to addresses within Ghana, or Ghana Territories(P.O Box addresses).  Following are the terms and conditions that constitute our Shipping Policy.</p>
+				</div>
+			</section>
+        
+        <section class="wrapper">
+				<div class="inner">
+					<header class="special">
+						<h2>Shipment confirmation & Order tracking</h2>
+						<p>You will receive a Shipment Confirmation email once your order has shipped containing your tracking number(s). The tracking number will be active within 24 hours.</p>
+					</header>
+            </div>
+        </section>
+<section id="two" class="wrapper style3">
+				<div class="inner1">
+					<div id="flexgrid">
+						<div>
+							<header>
+								<h3>Customs, Duties and Taxes</h3>
+							</header>
+							<p>ShiPay is not responsible for any customs and taxes applied to your order. All fees imposed during or after shipping are the responsibility of the customer (tariffs, taxes, etc.).</p>
+                            <br>
+							<ul class="actions">
+								<li><a href="#" class="button alt">Learn More</a></li>
+							</ul>
+						</div>
+						<div>
+							<header>
+								<h3>Damages</h3>
+							</header>
+							<p>ShiPay is not liable for any products damaged or lost during shipping. If you received your order damaged, please contact the shipment carrier to file a claim.
+
+Please save all packaging materials and damaged goods before filing a claim.
+ </p>
+							<ul class="actions">
+								<li><a href="#" class="button alt">Learn More</a></li>
+							</ul>
+						</div>
+						<div>
+							<header>
+								<h3>Returns Policy</h3>
+							</header>
+							<p>Our Return & Refund Policy provides detailed information about options and procedures for returning your order.<br>
+                                <br>
+                                <br>
+
+</p>
+							<ul class="actions">
+								<li><a href="#" class="button alt">Learn More</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+        
+
+
+    
+        
         <div id="box3">
-            <h1>DAFT CREATION</h1>
+            <div class="shadow">
+          <div class="container animation-element">
+              
+				<div class="row">
+                    <h3><font color="white">Contact Us</font></h3>
+				<div class="col-sm-6  ">
+                    <p>For More information, please contact us via:</p>
+			<img src="https://png.icons8.com/ios/50/000000/marker-filled.png">
+			<p>2 Otele Avenue,</p>
+			<p>Ambassadorial Enclave,</p>
+			<p>East Legon,</p>
+			<p>Accra-Ghana</p>
+			<img src="images/call.svg">
+			<p>0302 251 2033</p>
+			<img src="images/mail.svg">
+			<p>info@excellaws.com</p>
+		</div>
+		<div class="col-sm-6 ">
+		<form method = "post">
+			<!--Add Name -->
+			<div class="form-group ">
+				<label for="fname" class="col-sm-3 col-form-label">First Name</label>
+				<div class="col-sm-8">
+				  <input type="text" class="form-control" name = "name" id="" placeholder="Enter your full name" required/>
+				</div>
+			  </div>
+			
+			<!--Add Email -->
+			<div class="form-group">
+				<label for="phone" class="col-sm-3 col-form-label">Email</label>
+				<div class="col-sm-8">
+				  <input type="email" class="form-control" name = "email" id="" placeholder="Enter your email address" required/>
+				</div>
+			  </div>
+			
+			<!-- Input Message -->
+			  <div class="form-group ">
+				<label for="message" class="col-sm-3 col-form-label">Message</label>
+				<div class="col-sm-8">
+				  <textarea class="form-control" name="message" rows="8"  id = "message" placeholder="Message"></textarea>
+				</div>
+			  </div>
+			
+			
+			
+		</form></div>
+					
+					
+		
+	</div>
+                  </div>
+</div>
+
         </div>
+    
+    
+    
 	
+	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalLabel">Welcome back!</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+		<form>
+			<!-- Input Email -->
+			  <div class="form-group row">
+				<label class="col-sm-2 col-form-label">Email</label>
+				<div class="col-sm-10">
+				  <input type="email" class="form-control" id="inputEmail" placeholder="email@example.com" required />
+				</div>
+			  </div>
+			<!-- Input Password -->
+			  <div class="form-group row">
+				<label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+				<div class="col-sm-10">
+				  <input type="password" class="form-control" id="loginPassword" placeholder="Password" required/>
+				</div>
+			  </div>
+		</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+	
+	<div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="signup" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Welcome</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form method = "post">
+			<!--Add First Name -->
+			<div class="form-group row">
+				<label for="fname" class="col-sm-2 col-form-label">First Name</label>
+				<div class="col-sm-10">
+				  <input type="text" class="form-control" name = "fname" id="" placeholder="Enter your first name" required/>
+				</div>
+			  </div>
+			
+			<!--Add Last Name -->
+			<div class="form-group row">
+				<label for="" class="col-sm-2 col-form-label">Last Name</label>
+				<div class="col-sm-10">
+				  <input type="text" class="form-control" name = "lname" id="" placeholder="Enter your last name" required/>
+				</div>
+			  </div>
+			
+			<!--Add Phone Number -->
+			<div class="form-group row">
+				<label for="phone" class="col-sm-2 col-form-label">Phone Number</label>
+				<div class="col-sm-10">
+				  <input type="text" class="form-control" name = "phone" id="" placeholder="Enter your phone number" required/>
+				</div>
+			  </div>
+			
+			<!--Add Email -->
+			  <div class="form-group row">
+				<label for = "email" class="col-sm-2 col-form-label">Email</label>
+				<div class="col-sm-10">
+				  <input type="email" name = "email" class="form-control" id="addEmail" placeholder="email@example.com" required />
+				</div>
+			  </div>
+			
+			<!-- Add city -->
+			<div class="form-group row">
+				<label for="city" class="col-sm-2 col-form-label">City</label>
+				<div class="col-sm-10">
+				  <input name = "city" type="text" class="form-control" id="" placeholder="Enter the name of your city" required/>
+				</div>
+			  </div>
+			
+			
+			<!-- Add password -->
+			  <div class="form-group row">
+				<label for="addPassword" class="col-sm-2 col-form-label">Password</label>
+				<div class="col-sm-10">
+				  <input type="password" class="form-control" name = "addPassword" id="addPassword" placeholder="Password" required/>
+				</div>
+			  </div>
+			<!--Confirm Password -->
+			<div class="form-group row">
+				<label for="confirmPassword" class="col-sm-2 col-form-label">Confrim Password</label>
+				<div class="col-sm-10">
+				  <input type="password" name = "confirmPassword" class="form-control" id="confirmPassword" placeholder="Confirm Password" required/>
+				</div>
+			  </div>
+			
+			
+		</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.js"></script>
 	<script src="js/particles.js"></script> <!-- stats.js lib --> 
 	<script src="js/stats.js"></script>
 	<script src="js/script.js"></script>
+   
+	<!-- Rave API javascript -->
 	<script type="text/javascript" src="https://api.ravepay.co/flwv3-pug/getpaidx/api/flwpbf-inline.js"></script>
 	
 </body>

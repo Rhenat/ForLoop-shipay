@@ -2,10 +2,9 @@
 
 particlesJS("particles-js", {
   particles: {
-    number: {
-      value: 154,
-      density: { enable: true, value_area: 1281.9177489524316 }
-    },
+    number: { 
+		value: 294, density: { enable: true, value_area: 800 } 
+	},
     color: { value: "#ffffff" },
     shape: {
       type: "circle",
@@ -58,7 +57,7 @@ particlesJS("particles-js", {
   },
   retina_detect: true
 });
-var count_particles, stats, update;
+/*var count_particles, stats, update;
 stats = new Stats();
 stats.setMode(0);
 stats.domElement.style.position = "absolute";
@@ -75,7 +74,7 @@ update = function() {
   requestAnimationFrame(update);
 };
 requestAnimationFrame(update);
-
+*/
 
 /* Animate on scroll */
 var $animation_elements = $('.animation-element');
