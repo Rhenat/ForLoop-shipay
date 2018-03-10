@@ -86,13 +86,17 @@ if(isset($_POST['login'])){
                             <div class="col-sm-6 text-center animation-element">
                                 <h2><strong>Safe Delivery</strong></h2>
                                 <p>We offer safe and secure delivery of your shipments </p>
+                                <a type="button" class="btn btn-info btn-sm" data-toggle="tooltip" data-placement="bottom" title="We take care of the shipment of your goods as well as clearing of the goods when
+					  they arrive. In addition to this, we offer door-to-door delivery or a pickup from our office">Learn More</a>
                                 <!--<button type="button" class="btn btn-info btn-sm">Info Button</button>
 					  <button type="button" class="btn btn-success btn-sm">Success Button</button>-->
                             </div>
                             <div class="text-center col-sm-6 animation-element">
                                 <h2><strong>Card &amp; Mobile Money Payments</strong></h2>
                                 <p>We employ Rave by flutterwave to allow mobile money deposits.</p>
-                                <!--<span class="label label-warning">Info Label</span><span class="label label-danger">Danger Label</span> -->
+                                <a type="button" class="btn btn-info btn-sm" data-toggle="tooltip" data-placement="bottom" title="We take care of the shipment of your goods as well as clearing of the goods when
+					  they arrive. In addition to this, we offer door-to-door delivery or a pickup from our office">Learn More</a>
+<a type="button" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="bottom" title="We employ the sophisticated API of rave by flutterwave which accepts both card and mobile money payments accross MTN, Tigo and Vodafone for a smooth and easy payment">Learn More</a><!--<span class="label label-warning">Info Label</span><span class="label label-danger">Danger Label</span> -->
                             </div>
                         </div>
                     </div>
